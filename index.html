@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Don Cox</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<ul class="nav">
+		<li><a href="index.html" title="Read about me" class="selected">Home</a></li>
+		<li><a href="resume.html" title="My resume">Resume</a></li>
+		<li><a href="contact.html" title="Contact information">Contact</a></li>
+	</ul>
+	
+	<div id="message">
+		<h1 id="fittext1">Welcome, and thank you for dropping by to visit my website.</h1>
+	</div>
+	
+	<div class="main">
+	
+		<div class="col-a col">
+			<img src="img/DonCox.jpg" alt="Don Cox">
+		</div>
+				
+		<div class="col-b col">
+			
+			<p>
+				I am a seasoned, enthusiastic professional with over 37 years of IT experience. I am seeking a position within
+				an organization that offers a dynamic and progressive atmosphere that will provide my next set of challenges.
+			</p>
+			<p>
+				I believe my biggest asset is that I am a self motivated individual who requires very little supervision and
+				has an innate ability to analyze and solve issues independently.
+			</p>
+			<p>
+				I have always found it immensely fulfilling to overcome particularly vexing issues with very little
+				outside help. When learning something new I find it better to rely on actual trial and error 
+				coupled with a heavy dose of Google searches to facilitate the process. It takes me very little time to 
+				quickly comprehend new subjects, and this is an asset in any environment.
+			</p>
+			<p>
+				By quickly glancing at my resume, one will see that I have a well rounded IT background. I look 
+				forward to meeting you face-to-face soon to discuss how I can become an asset for your company.
+			</p>
+		</div>
+		
+	</div>
+	
+	<footer class="footer">
+		<p>This site designed and built by Don Cox</p>
+	</footer>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		$("#message").hide(1, function(){ $("#message").show("slow"); });
+	</script>
+	
+	<script src="jquery.fittext.js"></script>
+	<script type="text/javascript">
+		$("#fittext1").fitText(3.75);
+	</script>
+</body>
+</html>
